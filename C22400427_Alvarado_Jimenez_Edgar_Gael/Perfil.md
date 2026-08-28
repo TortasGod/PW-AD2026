@@ -1,4 +1,4 @@
-![Mi foto]
+![Mi foto](https://drive.google.com/file/d/1j6OS4-oYwOCup1T9KtZA4WQleitJcOXC/view)
 
 ## Información general
 - Nombre: Alvarado Jiménez Edgar Gael
