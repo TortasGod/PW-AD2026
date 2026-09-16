@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Estructura base</title>
+    </head>
+    <body>
+         <h1 id="inicio">BestDay</h1>
+<hr>
+<p>
+Best Day ® inició operaciones en 1984 en la Ciudad de Cancún,
+ México donde se ubica nuestra oficina matriz. Estamos enfocados en ofrecer viajes 
+ tanto nacionales como internacionales siempre con un servicio de calidad y descuentos
+  exclusivos para nuestros clientes, así como facilidades de pago con los principales 
+  bancos del país.
+</p>
+ <h1 id="">Menu</h1>
+ <a href="#inicio">Inicio</a><label>|</label>
+ <a href="#destinos">Destinos</a><label>|</label>
+<a href="#Paquetes">Paquetes</a><label>|</label>
+<a href="#promocion">Promociones</a><label>|</label>
+<a href="#contacto">Contacto</a><label>|</label>
+
+<hr>
+
+ <h1 id="">Bienvenida</h1>
+ <p>
+Nuestras opciones para los viajeros van desde reservar un hotel 
+de cinco estrellas u hospedarte en una renta vacacional nuestra, 
+vuelos en primera clase o en categoría económica, paquetes de hotel + vuelo con los 
+cuales ahorras más, tours y traslados privados, hasta seguros de asistencia durante 
+tu viaje o renta de autos, donde tu eliges la mejor opción de acuerdo a tu presupuesto.
+</p>
+<!--Imagen del hotel-->
+ <img width="534px" src="https://roastbrief.com.mx/wp-content/uploads/2023/09/banner-best-day.jpeg">
+
+ <hr>
+ <!-- Listas -->
+<h2 id="destinos">Destinos Populares</h2>
+<h3>Playas</h3>
+  <ul>
+    <li>Quintana Roo </li>
+    <li>Cancún </li>
+    <li>Puerto Vallarta </li>
+    <li>Acapulco </li>
+  </ul>
+  
+  <h3>Pueblos magicos</h3>
+<ol>
+    <li>Bacalar </li>
+    <li>Bernal </li>
+    <li>Parras de la Fuente </li>
+    <li>Jerez </li>
+  </ol>
+<hr>
+
+<h2 id="promocion">Promociones</h2>
+<label>Hasta 65% de descuento en selección de hoteles.</label><br><br>
+<label>Cupones de descuento variables mediante el apartado de Mis cupones Best Day o su aplicación móvil. </label>
+<hr>
+<!-- Tabla -->
+<h2 id="Paquetes">Paquetes Disponibles</h2>
+<table border="1">
+  <tr>
+    <th>Destino</th>
+    <th>Dias</th>
+    <th>Hotel</th>
+    <th>Precio</th>
+  </tr>
+  
+  <tr>
+    <th>Quintana Roo</th>
+    <th>4 dias</th>
+    <th>4 estrellas</th>
+    <th>$4,900 </th>
+  </tr>
+  <tr>
+    <th>Cancun</th>
+    <th>5 dias</th>
+    <th>5 estrellas</th>
+    <th>$8,201</th>
+  </tr>
+   <tr>
+    <th>Puerto Vallarta</th>
+    <th>3 dias</th>
+    <th>4 estrellas</th>
+    <th>$5,000</th>
+  </tr>
+  <tr>
+     <th>Cabo San Lucas</th>
+    <th>3 dias</th>
+    <th>Cabaña</th>
+    <th>$5,500</th>
+  </tr>
+  <tr>
+     <th>Riviera Nayarit</th>
+    <th>6 dias</th>
+    <th>Todo Incluido</th>
+    <th>$15,000</th>
+  </tr>
+</table>
+<hr>
+<h2>¿Porque viajar con nosotros?</h2>
+ <ul>
+    <li>Hoteles certificados </li>
+    <li>Guias turisticas </li>
+    <li>Seguro de viajero </li>
+    <li>Atencion 24/7 </li>
+    <li>Facilidades de pago </li>
+  </ul>
+<hr>
+<h2>Formulario de Reservacion</h2>
+<form>
+    <fieldset>
+       <legend>Solicitud de Reservacion</legend>
+       <table border="1">
+        <tr>
+        <th colspan="4">Datos del Cliente</th>  
+        </tr>
+        <tr>
+        <th>Nombre</th>
+         <th><input type="text"></th>
+          <th>Correo</th>
+           <th><input type="email"></th>
+        </tr>
+         <tr>
+        <th>Contraseña</th>
+         <th><input type="password"></th>
+          <th>Edad</th>
+           <th><input type="number"></th>
+        </tr>
+         <tr>
+        <th>Fecha del viaje</th>
+         <th><input type="date"></th>
+          <th>Hora de salida</th>
+           <th><input type="time"></th>
+        </tr>
+         <tr>
+        <th>Numero de viajeros</th>
+         <th><input type="number"></th>
+          <th>Presupuesto</th>
+           <th><input type="range"></th>
+        </tr>
+         <tr>
+        <th>Color de Pulsera</th>
+         <th><input type="color"></th>
+          <th>Identificacion</th>
+           <th><input type="file"></th>
+        </tr>
+        <tr>
+        <th colspan="4">Servicios</th>  
+        </tr>
+        <tr>
+        <th style="border: none"><input type="checkbox"><label>Transporte</label></th> 
+        </tr>
+        <tr>
+        <th style="border: none"><input type="checkbox"><label>Hotel</label></th> 
+        </tr>
+        <tr>
+        <th style="border: none"><input type="checkbox"><label>Desayuno</label></th> 
+        </tr>
+        <tr>
+        <th style="border: none"><input type="checkbox"><label>Seguro de viaje</label></th> 
+        </tr>
+        <th colspan="4">Tipo de Habitacion</th>  
+           <tr>
+            <th style="border: none"><label>Individual</label><input type="radio" value="Opcion1" name="radio"></th>
+            <th style="border: none"><label>Doble</label><input type="radio" value="Opcion1" name="radio"></th>
+            <th style="border: none"><label>Familiar</label><input type="radio" value="Opcion1" name="radio"></th>
+             </tr> 
+        <tr>
+        <th>Destino</th>
+         <th><select>
+  <option>Cancun</option>
+   <option>Quintana Roo</option>
+    <option>Puerto Vallarta</option>
+    <option>Acapulco</option>
+</select>
+</th>
+          <th>Forma de Pago</th>
+           <th>
+            <select>
+  <option>Tarjeta</option>
+   <option>Transferencia</option>
+    <option>Efectivo</option>
+</select>
+           </th>
+        </tr>
+<tr>
+        <th>Comentarios</th>
+        <th colspan="3" style="border: none; padding: 0;">
+    <textarea rows="6" style="width: 100%; box-sizing: border-box;"></textarea>
+  </th>
+        </tr>
+
+        <tr>
+        
+         <th colspan="2"><input type="submit" value="Reservar"></th>
+           <th colspan="2"><input type="submit" value="Limpiar"></th>
+        </tr>
+
+        
+        
+       </table> 
+    </fieldset>
+</form>
+
+<hr>
+
+<h2 id="contacto">Informacion de Contacto</h2>
+<label>Direccion: Boulevard Luis Donaldo Colosio 680, 
+    dentro de Forum Tepic (Local Pbk24)</label><br><br>
+    <label>Telefono: 800 265 0125</label>
+    <hr>
+<h2>Enlaces de interez</h2>
+<a href="https://www.bestday.com.mx/vuelos" target="_blank" title="Ir a Vuelos">Ver otros Destinos</a><br>
+<a href="https://www.bestday.com.mx/vuelos" target="_blank" title="Ir a Paquetes">Paquetes</a><br>
+<a href="#inicio">Ir al Inicio</a>
+   </body>
+</html>
