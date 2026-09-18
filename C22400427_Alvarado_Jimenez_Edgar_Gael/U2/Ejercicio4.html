@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Estructura base</title>
+    </head>
+    <body>
+         <h1>Instituto Tecnologico de Tepic</h1>
+<label>Tecnologico Nacional de Mexico</label><br>
+  <img width="334px" src="https://mitec.ittepic.edu.mx/assets/imgs/logoTecNM.png">
+<img width="134px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbqRvPfhwSnTqslmRo0ho-j97ZA6qwYzsXOF4yaLG4Hg&s=10">
+
+<hr>
+<nav>
+ <a href="#historia">Historia</a><label> | </label>
+ <a href="#carreras">Carreras</a><label> | </label>
+<a href="#servicios">Servicios</a><label>|</label>
+<a href="#registro">Registro</a><label> | </label>
+<a href="#contacto">Contacto</a><label> | </label>
+</nav>
+<hr>
+
+ <h1 id="historia">Historia</h1>
+ <p>
+El Instituto Tecnológico de Tepic (ITT), es una institución pública de educación superior
+localizada en Tepic, Nayarit, México.
+El Instituto Tecnológico de Tepic imparte 11 carreras a nivel licenciatura, dos maestrías y un doctorado 
+en las áreas de ciencias sociales y administrativas, 
+ciencias naturales y exactas, e ingeniería. Forma parte del Tecnológico Nacional de México (TecNM), 
+de la Secretaría de Educación Pública de México. 
+El instituto fue creado el 1 de octubre de 1975.
+</p>
+ <hr>
+<h2 id="carreras">Oferta Educativa</h2>
+<h3>Ingenierias</h3>
+  <ul>
+    <li>Ingenieria en Sistemas Computacionales </li>
+    <li>Ingenieria Industrial</li>
+    <li>Ingenieria Civil</li>
+    <li>Ingenieria Mecatronica </li>
+    <li>Ingenieria Bioquimica </li>
+    <li>Ingenieria Electrica</li>
+  </ul>
+  
+  <h3>Proceso de Admision</h3>
+<ol>
+    <li>Solicitar ficha</li>
+    <li>Realizar examende admision</li>
+    <li>Entregar Documentacion</li>
+    <li>Iniciar clases</li>
+  </ol>
+<hr>
+
+<h2 id="servicios">Serivicios</h2>
+<table border="1">
+  <tr>
+    <th>Servicio</th>
+    <th>Ubicacion</th>
+    <th>Horario</th>
+  </tr>
+  
+  <tr>
+    <th>Biblioteca</th>
+    <th>Centro de Informacion</th>
+     <th>8:00 - 19:00</th>
+  </tr>
+   <tr>
+    <th>Centro de Computo</th>
+    <th>Edificio Administrativo</th>
+     <th>8:00 - 18:00</th>
+  </tr>
+    <tr>
+    <th>Control Escolar</th>
+    <th>Edificio Administrativo</th>
+     <th>9:00 - 17:00</th>
+  </tr>
+</table>
+<hr>
+<h2>Galeria</h2>
+<img width="334px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9lthqVqfhfBGezTXxaHR-xp9yVME_mDQJ6Stu8c5LgQ&s=10">
+<img width="234px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5xvLhTyFxsuBiq6Crph5v81g8hRAP84iLK7tVsyt-Q&s">
+
+<hr>
+<h2 id="registro">Registro de Aspirantes</h2>
+<form>
+    <fieldset>
+       <legend>Datos del Aspirante</legend>
+       <table border="1">
+        <tr>
+        <th>Nombre</th>
+         <th><input type="text"></th>
+          <th>Correo</th>
+           <th><input type="email"></th>
+        </tr>
+         <tr>
+        <th>Contraseña</th>
+         <th><input type="password"></th>
+          <th>Edad</th>
+           <th><input type="number"></th>
+        </tr>
+         <tr>
+        <th>Fecha de nacimiento</th>
+         <th><input type="date"></th>
+          <th>Hora de contacto</th>
+           <th><input type="time"></th>
+        </tr>
+        <tr>
+        <th>Carrera</th>
+         <th><select>
+<option>Ingenieria en Sistemas Computacionales </option>
+    <option>Ingenieria Industrial</option>
+    <option>Ingenieria Civil</option>
+    <option>Ingenieria Mecatronica </option>
+    <option>Ingenieria Bioquimica </option>
+    <option>Ingenieria Electrica</option>
+</select>
+</th>
+          <th>Semestre</th>
+           <th>
+            <select>
+  <option>1</option>
+   <option>2</option>
+    <option>3</option>
+    <option>4</option>
+   <option>5</option>
+    <option>6</option>
+    <option>7</option>
+   <option>8</option>
+    <option>9</option>
+</select>
+           </th>
+        </tr>
+<tr>
+<th>Turno</th>
+<th style="border: none"><label>Matutino</label><input type="radio" value="Opcion1" name="radio"></th>
+<th style="border: none"><label>Despertino</label><input type="radio" value="Opcion1" name="radio"></th>
+</tr> 
+<tr>
+<th>Actividades</th>  
+        <th style="border: none"><input type="checkbox"><label>Deportes</label></th> 
+        <th style="border: none"><input type="checkbox"><label>Musica</label></th> 
+        <th style="border: none"><input type="checkbox"><label>Cultura</label></th> 
+        </tr>
+
+         <tr>
+        <th>Promedio</th>
+           <th><input type="range"></th>
+          <th>Fotografia</th>
+           <th><input type="file"></th>
+        </tr>
+        
+        
+      
+        
+           
+        
+<tr>
+        <th>Comentarios</th>
+        <th colspan="3" style="border: none; padding: 0;">
+    <textarea rows="6" style="width: 100%; box-sizing: border-box;"></textarea>
+  </th>
+        </tr>
+
+        <tr>
+        
+         <th colspan="2"><input type="submit" value="Enviar"></th>
+           <th colspan="2"><input type="submit" value="Limpiar"></th>
+        </tr>
+       </table> 
+    </fieldset>
+</form>
+
+<hr>
+
+<h2 id="contacto">Contacto</h2>
+<label>Av.Tecnologico No.2595,Lagos del Country,Tepic,Nayarit.</label><br><br>
+    <label>Telefono: (311) 211 9400</label>
+<label>Correo: info@ittepic.edu.mx</label>
+<hr>
+<a href="https://www.tepic.tecnm.mx/" target="_blank" title="Sitio Oficial">Sitio Oficial del Instituto Tecnologico de Tepic</a><br>
+<a href="#historia">Ir al Inicio</a>
+   </body>
+</html>
