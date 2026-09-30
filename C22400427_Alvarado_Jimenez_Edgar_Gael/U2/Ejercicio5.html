@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Estructura base</title>
+    </head>
+    <body>
+         <h1>CineMundo: Tienda de Peliculas</h1>
+<label>Tu rincon favorito para comprar peliculas clasicas y de estreno en formato fisico y digital</label><br>
+ <ul>
+
+    <li><a href="#peliculas">Peliculas del Mes</a></li>
+    <li><a href="#generos">Clasificacion y generos </a></li>
+    <li><a href="#catalogos">Catalogos y precios</a></li>
+    <li><a href="#pedido">Solicitud de pedido o reserva</a></li>
+    <li><a href="#atencion">Atencion al cliente</a></li>
+  </ul>
+ 
+ 
+
+
+
+
+<hr>
+<h2 id="peliculas">Peliculas del Mes</h2>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnXGSsZFXRnHUwBnmTo6x71bbcWJ-aIqVPsENJwCHfzZipoLuCx624LuU&s=10"><br>
+
+
+<label><strong>Resident Evil: Noche Cero</strong></label>
+<p>Un repartidor ordinario que intenta entregar un paquete médico en un hospital 
+    de Raccoon City durante una nevada invernal, momento en el que estalla un violento 
+    brote biotecnológico de la Corporación Umbrella</p>
+<label>Consultar mas detalles en: <a href="https://es.wikipedia.org/wiki/Resident_Evil_(pel%C3%ADcula_de_2026)" target="_blank" title="Wiki">Mas info</a><br>
+ </label>
+<hr>
+<h2 id="generos">Clasificacion y Generos</h2>
+<h3>Generos Disponibles</h3>
+  <ul>
+    <li>Ciencia Ficcion </li>
+    <li>Animacion Familiar</li>
+    <li>Suspenso y Misterio</li>
+    <li>Comedia Clasica</li>
+  </ul>
+  
+  <h3>Las 3 mas vendidas de la semana</h3>
+<ol>
+    <li>El misterio de la mansion </li>
+    <li>Aventura Espacila</li>
+    <li>Risas de la gran ciudad</li>
+  </ol>
+
+  <h4>Formatos fisicos disponibles</h4>
+
+  <ul>
+    <li>Blu-Ray 4K Ultra HD</li>
+    <li>DVD Estandar</li>
+  </ul>
+
+  <h5>Nota Importante</h5>
+<label><em>*Todos los discos cuentan con garantia por defectos de fabrica</em></label>
+<hr>
+<h2 id="catalogos">Catalogos y Precios</h2>
+<table border="1">
+<tr>
+<th>Titulo</th>
+<th>Genero</th>
+<th>Año</th>
+<th>Formato</th>
+<th>Precio (USD)</th>
+</tr>
+
+<tr>
+<th>Aventura Espacial</th>
+<th>Ciencia Ficcion</th>
+<th>2024</th>
+<th>Blu-Ray 4K </th>
+<th>$25.00</th>
+</tr>
+
+<tr>
+<th>Misterio en la Mansion</th>
+<th>Suspenso</th>
+<th>2023</th>
+<th>DVD</th>
+<th>$15.00</th>
+</tr>
+
+<tr>
+<th>Risas en la gran ciudad</th>
+<th>Comedia</th>
+<th>2022</th>
+<th>Blu-Ray</th>
+<th>$16.50</th>
+
+<tr>
+<th>Resident Evil: Noche Cero</th>
+<th>Terror</th>
+<th>2026</th>
+<th>Blu-Ray</th>
+<th>$12.00</th>
+</tr>
+
+</table>
+<hr>
+<h2 id="pedido">Solicitud de pedido o reserva</h2>
+<label>Completa el formulario para reservar tu pelicula favorita</label><br><br>
+
+
+
+
+<form>
+    <fieldset>
+       <legend>Datos personales</legend>
+       <table>
+        <tr>
+        <th>Nombre Completo</th>
+  </tr>
+  <tr>
+         <th><input type="text"></th>
+         </tr>
+         <tr>
+          <th>Correo Electronico</th>
+          </tr>
+          <tr>
+           <th><input type="email"></th>
+      </tr>
+       </table> 
+    </fieldset>
+</form><br>
+
+
+
+<form>
+    <fieldset>
+       <legend>Detalles de compra</legend>
+       <label>Selecciona la pelicula</label><br>
+       <select>
+<option>Aventura Espacial($25.00) </option>
+    <option>Misterio en la Mansion($15.00)</option>
+    <option>Risas en la gran ciudad($16.50)</option>
+    <option>Resident Evil: Noche Cero($12.00)</option>
+</select><br><br>
+
+<label>Formato de Entrega:</label><br><br>
+
+<input type="radio" value="Opcion1" name="radio"><label>Disco fisico(Envio a domicilio)</label><br>
+<input type="radio" value="Opcion1" name="radio"><label>Copia digital(Descarga Directa)</label><br><br>
+
+<label>Opciones adicionales:</label><br><br>
+<input type="checkbox"><label>Incluir envoltura para regalo</label><br>
+<input type="checkbox"><label>Solicitar folleto con ficha tecnica</label><br><br>
+<label>Comentarios o indicaciones de entrega:</label><br><br>
+
+<textarea rows="6" style="width: 50%; box-sizing: border-box;"></textarea>
+
+
+
+    </fieldset>
+</form><br>
+
+<input type="submit" value="Enviar Pedido">
+<input type="submit" value="Limpiar Formulario">
+
+<hr>
+
+<h2 id="atencion">Atencion al Cliente</h2>
+<label>¿Tienes dudas o buscas una pelicula descatalogada? Escribenos a <a href="https://cinemex.com/contacto" target="_blank" title="Correo de atencion">soporte@cinemundo.gmail.com</a></label><br><br>
+    <label><strong>CineMundo S.A.</strong>2026 - Todos los derechos reservados</label>
+
+
+   </body>
+</html>
