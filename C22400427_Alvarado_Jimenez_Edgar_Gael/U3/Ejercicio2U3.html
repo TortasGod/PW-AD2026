@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>The Warning - Estructura base</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: burlywood;
+            color: #3e2723;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #5c4033; 
+            padding: 15px 30px;
+            color: blanchedalmond;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+        }
+
+        .navbar h2 {
+            margin: 0;
+            color: blanchedalmond;
+            font-size: 1.5rem;
+            letter-spacing: 1px;
+        }
+
+        .menu {
+            display: flex;
+            gap: 20px;
+        }
+
+        .menu a {
+            color: blanchedalmond;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .menu a:hover {
+            color: #ffdead;
+            text-decoration: underline;
+        }
+
+        
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            background-color: #faebd7; /* Crema cálida que combina perfecto */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+        }
+
+        h1 {
+            color: #4a3319;
+            font-family: Arial, Helvetica, sans-serif;
+            border-bottom: 3px solid #d2b48c;
+            padding-bottom: 8px;
+            margin-top: 35px;
+            font-size: 1.6rem;
+        }
+
+        h1:first-of-type {
+            margin-top: 0;
+        }
+
+        p {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #3e2723;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 6px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            max-width: 100%;
+            height: auto;
+        }
+
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #ffffff;
+            border-radius: 6px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        th, td {
+            padding: 12px 18px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #8c5830; 
+            color: #ffffff;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 0.5px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fdf5e6; 
+        }
+
+        tr:hover {
+            background-color: #f5eedc;
+        }
+
+        td {
+            color: #333333;
+            border-bottom: 1px solid #e0d0b8;
+            font-size: 1rem;
+        }
+
+        
+        ol {
+            font-size: 1.05rem;
+        }
+
+        ol li {
+            margin-bottom: 8px;
+        }
+
+        ol a {
+            color: #8c5830;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        ol a:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #d2b48c;
+            margin: 25px 0;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <nav class="navbar">
+        <h2>The Warning</h2>
+        <div class="menu">
+            <a href="https://www.instagram.com/thewarningrockband?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==" target="_blank" title="Instagram">Instagram</a>
+            <a href="https://thewarningband.com/" target="_blank" title="Sitio Oficial">Sitio Oficial</a>
+            <a href="https://www.youtube.com/channel/UCeZHVOA5rP9rHoa7zKCx7kQ" target="_blank" title="YouTube">YouTube</a>
+        </div>
+    </nav>
+
+   
+    <div class="container">
+       
+        <h1 id="Encabezados"><strong>THE WARNING</strong></h1>
+        <p>
+            The Warning es una banda mexicana de hard rock y rock alternativo de Monterrey,
+            México, formada en 2013. Está integrada por las hermanas Villarreal Vélez: Daniela 
+            (voz principal y guitarra), Paulina (batería, teclado, coros y voz principal ocasionalmente), 
+            y Alejandra (bajo, teclado, y coros).
+        </p>
+        <hr>
+
+        <h1><strong>Índice</strong></h1>
+        <ol>
+            <li><a href="#Imagen">Fotografía del grupo</a></li>
+            <li><a href="#Integrantes">Integrantes</a></li>
+            <li><a href="#Discografia">Discografía</a></li>
+        </ol>
+        <hr>
+      
+        
+        <h1 id="Imagen"><strong>Fotografía del grupo</strong></h1>
+        <img width="534px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZdIwAS8N0iARLnrq2oY0Z7EGZcG8Trzo2I0MHv1zbZg&s=10">
+        <hr>
+         
+        
+        <h1 id="Integrantes"><strong>Integrantes</strong></h1>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Instrumento</th>
+            </tr>
+            <tr>
+                <td>Daniela</td>
+                <td>Voz principal y guitarra</td>
+            </tr>
+            <tr>
+                <td>Alejandra</td>
+                <td>Bajo, teclado, y coros</td>
+            </tr>
+            <tr>
+                <td>Paulina</td>
+                <td>Batería, teclado, coros y voz principal ocasionalmente</td>
+            </tr>
+        </table>
+        <hr> 
+
+        
+        <h1 id="Discografia"><strong>Discografía</strong></h1>
+        <table>
+            <tr>
+                <th>Título</th>
+                <th>Año</th>
+            </tr>
+            <tr>
+                <td>XXI Century Blood</td>
+                <td>(2017)</td>  
+            </tr>
+            <tr>
+                <td>Queen of the Murder Scene</td>
+                <td>(2018)</td>  
+            </tr>
+            <tr>
+                <td>ERROR</td>
+                <td>(2022)</td>  
+            </tr>
+            <tr>
+                <td>Keep Me Fed</td>
+                <td>(2024)</td>  
+            </tr>
+            <tr>
+                <td>Live from Auditorio Nacional, CDMX</td>
+                <td>(2025 - Álbum en vivo)</td>  
+            </tr>
+            <tr>
+                <td>Everything's Falling</td>
+                <td>(2026)</td>  
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
